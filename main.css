@@ -1,27 +1,103 @@
-@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
-
-.cat {
-  height: 200px;
-  width: 300px;
-  background-color: white;
-  border: 30px black dashed;
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+body {
+  background: linear-gradient(
+    227deg,
+    rgba(133, 255, 249, 1) 0%,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(0, 0, 0, 1) 27%,
+    rgba(255, 0, 0, 1) 27%,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 1) 54%,
+    rgba(74, 255, 109, 1) 54%,
+    rgba(0, 0, 0, 1) 79%,
+    rgba(255, 234, 0, 1) 79%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  font-weight: lighter;
+  color: gainsboro;
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  background-size: auto, cover;
+  background-position: top left, center;
+}
+.why {
+  width: 400px;
+  border: 15px solid rgb(146, 79, 255);
+  background-color: black;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 60px;
+}
+.what {
+  width: 550px;
+  border: 35px groove rgb(146, 79, 255);
+  background-color: black;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 180px;
+}
+.title {
+  width: 1600px;
+  border: 25px ridge red;
+  background-color: black;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 360px;
+}
+.pentagonflat {
+  width: 160px;
+  border: 15px ridge red;
+  background-color: black;
+  padding: 50px;
+  margin: 20px;
+  clip-path: polygon(
+    51% 16%,
+    100% 42%,
+    100% 61%,
+    68% 82%,
+    29% 82%,
+    0 65%,
+    0 39%
+  );
+}
+.large {
+  display: flex;
+  border: 10px red solid;
+  justify-content: space-around;
 }
 
-.other {
-    height: 100px;
-    width: 700px;
-    background-color: rgb(255, 0, 0);
-    border: 30px black solid;
-  }
+.one {
+  display: flex;
+  border: 10px rebeccapurple
+   solid;
+  width: 30%;
+}
 
-body {
-  background: rgb(255, 58, 58);
-  background: linear-gradient(
-    190deg,
-    rgba(255, 58, 58, 1) 0%,
-    rgba(244, 244, 244, 1) 41%,
-    rgba(255, 0, 238, 1) 100%
-  );
-  height: 100vh;
-  font-family: Bruno Ace SC;
+.two {
+  display: flex;
+  border: 10px red solid;
+  width: 30%;
+}
+
+.three {
+  display: flex;
+  border: 10px green solid;
+  width: 30%;
+}
+
+.ox {
+  display: flex;
+  border: 10px rebeccapurple;
+  width: 100%;
+  height: 100%;
+}
+
+.hex {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  background-color: aqua;
+  clip-path: polygon(31% 12%, 68% 11%, 91% 50%, 69% 90%, 29% 91%, 7% 51%);
 }
